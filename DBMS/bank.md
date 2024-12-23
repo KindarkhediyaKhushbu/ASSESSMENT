@@ -33,7 +33,8 @@ INSERT INTO Bank (branch_id, branch_name, branch_city) VALUES
 (4,'kotak','moarbi'),
 (5,'SDFC','surat');
 
-//Insert Data into Bank Table
+//Insert Data into account_holder Table
+
 INSERT INTO account_holder VALUES
 (1, 001, 'khushbu', 'junagadh', '9725848599', '2003-10-04', 'active', 'checking', 500.00),
 (2, 002, 'kishan', 'rajkot', '9316529039', '1999-08-09', 'active', 'savings', 300.00),
@@ -41,6 +42,12 @@ INSERT INTO account_holder VALUES
 (4, 004,'harsh','ahemdabad','8866929211','2000-11-29','active','saving',700.00);
 (5, 005, 'dhvani', 'rajkot', '9316529039', '1999-08-09', 'active', 'current ', 200.00),
 (6, 006, 'janvi', 'rajkot', '9726121012', '2007-05-09', 'current ', 'saving', 400.00);
+
+//Insert data into loan table
+INSERT INTO loan VALUES(1001,1,4,200000,"multy"),
+(1002,5,3,500000,"full"),
+(1003,2,6,30000,"quater");
+
 
 
 //account A is trying to transfer $100 to account B.
